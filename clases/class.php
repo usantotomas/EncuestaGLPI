@@ -6,10 +6,10 @@ class conectar
 	//función de consultar para blindar parametros
 	function consulta($consulta,$parametros,$tp)
 	{
-		$HOST="mariadb.usantotomas.red";
-		$USER_NAME="glpi_prod";
-		$PASSWORD="0SwJMQ18C8S";
-		$SERVICE_NAME="glpi_prod";
+		$HOST="";
+		$USER_NAME="";
+		$PASSWORD="";
+		$SERVICE_NAME="";
 		try {
 		$gbd = new PDO('mysql:host='.$HOST.';dbname='.$SERVICE_NAME.'', $USER_NAME, $PASSWORD);
 		//echo "Conectado\n";
